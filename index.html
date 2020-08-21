@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="gurwinder.me">Gurwinder</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="#navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-2 ">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="demo" class="carousel slide " data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner ">
+            <div class="carousel-item active" data-interval="3000">
+                <img src="alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="headway-5QgIuuBxKwM-unsplash.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="scott-graham-5fNmWej4tAA-unsplash.jpg" class="d-block w-100" alt="">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div id='content'>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-7 h-50" id="imgview"></div>
+                <div class="col-5 text-center py-3 " id="imgcontent">
+                    <h1>Promotional poster for Truck.in in which we used to the concept of users recalling the power of search suggestion</h1>
+                    <button class="btn bg-primary my-3 rounded-pill">View More</button>
+                </div>
+                <div class="col-12" id="imgcontact">
+                    <i class="fab fa-linkedin p-2"></i>
+                    <i class="fab fa-facebook-square p-2"></i>
+                    <i class="fab fa-instagram p-2"></i>
+                    <i class="fab fa-youtube p-2"></i>
+                    <i class="fas fa-envelope p-2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="col-md-4 text-center maincontent mb-5" id="1" onclick="process(1)">
+                <img src="images/posdes.png" class="d-block w-100 my-3 " alt="">
+                <h4>Gurwinder</h4>
+            </div>
+            <div class="col-md-4 text-center maincontent mb-5" id="2" onclick="process(2)">
+                <img src="alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" class="d-block w-100 my-3 " alt="">
+                <h4>Gurwinder</h4>
+            </div>
+            <div class="col-md-4 text-center maincontent mb-5" id="3" onclick="process(3)">
+                <img src="alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" class="d-block w-100 my-3 " alt="">
+                <h4>Gurwinder</h4>
+            </div>
+            <div class="col-md-4 text-center maincontent mb-5" id="4" onclick="process(4)">
+                <img src="alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" class="d-block w-100 my-3 " alt="">
+                <h4>Gurwinder</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <h1>Skills</h1>
+            </div>
+            <div class="col-md-2 mx-5">
+                <h5>Illustrator</h5>
+            </div>
+            <div class="col-8 my-3">
+                <div class="progress w-75" style="height: 7px;">
+                    <div class="progress-bar" style="width:70%"></div>
+                </div>
+            </div>
+            <div class="col-md-2 mx-5">
+                <h5>Photoshop</h5>
+            </div>
+            <div class="col-8 my-3">
+                <div class="progress w-75" style="height: 7px;">
+                    <div class="progress-bar" style="width:70%"></div>
+                </div>
+            </div>
+            <div class="col-md-2 mx-5">
+                <h5>Aftereffects</h5>
+            </div>
+            <div class="col-8 my-3">
+                <div class="progress w-75" style="height: 7px;">
+                    <div class="progress-bar" style="width:70%"></div>
+                </div>
+            </div>
+            <div class="col-md-2 mx-5">
+                <h5>Primere Pro</h5>
+            </div>
+            <div class="col-8 my-3">
+                <div class="progress w-75" style="height: 7px;">
+                    <div class="progress-bar" style="width:70%"></div>
+                </div>
+            </div>
+            <div class="col-md-2 mx-5">
+                <h5>Web Designing</h5>
+            </div>
+            <div class="col-8 my-3">
+                <div class="progress w-75" style="height: 7px;">
+                    <div class="progress-bar" style="width:70%"></div>
+                </div>
+            </div>
+            <div class="col-md-2 mx-5">
+                <h5>Python</h5>
+            </div>
+            <div class="col-8 my-3">
+                <div class="progress w-75" style="height: 7px;">
+                    <div class="progress-bar" style="width:10%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about jumbotron mt-5 mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>About Me</h1>
+                </div>
+                <div class="col-md-12 p-3 px-5 text-justify">
+                    <h5>Currently,studying at UIET,punjab University,Chandigarh pursuing BE,Mechanical Engineering.I am having great interest in Designing and also have interest in Mechanical Field of Robotics</h5>
+                </div>
+                <div class="col-md-12 text-justify p-4">
+                    <h2>Currently Looking for oppurtunities to apply my knowledge in industry</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-primary mt-0">
+        <div class="container p-3">
+            <div class="row">
+                <h3>Contact Me</h3>
+                <i class="fab fa-linkedin p-2"></i>
+                <i class="fab fa-facebook-square p-2"></i>
+                <i class="fab fa-instagram p-2"></i>
+                <i class="fab fa-youtube p-2"></i>
+                <i class="fas fa-envelope p-2"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e80fd8a0a3.js" crossorigin="anonymous"></script>
+    <script src="event.js"></script>
+</body>
+
+</html>
